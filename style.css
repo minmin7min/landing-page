@@ -1,0 +1,185 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Roboto, sans-serif;
+}
+
+.hero-section {
+  background-color: #1f2937;
+  color: #f9faf8;
+  padding: 16px 15% 100px;
+}
+
+.header {
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.link {
+    display: flex;
+    gap: 25px;
+}
+
+.link a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 48px;
+}
+
+.hero-left {
+    flex: 1;
+}
+
+.hero-left h1 {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+    margin: 0;
+}
+
+.hero-left p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero-left button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 8px 25px;
+    font-weight: bold;
+    border-radius: 8px;
+}
+
+.hero-image {
+    flex: 1;
+    min-height: 230px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.information {
+    text-align: center;
+    padding: 48px 20px 100px;
+}
+
+.information h2{
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+    margin-bottom: 45px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.card {
+    width: 150px;
+}
+
+.card p {
+    color: gray;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #3882F6;
+    border-radius: 12px;
+}
+
+.quote-section {
+    padding: 100px 20px;
+    background-color: #E5E7EB;
+}
+
+.quote-container {
+    width: 800px;
+    text-align: center;
+    margin: auto;
+    
+}
+
+.quote {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    margin: 0;
+    text-align: left;
+}
+
+.author {
+    text-align: right;
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.action-section {
+    padding: 100px 20px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.action-box {
+    width: 1000px;
+    padding: 40px 100px;
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.action-box h3 {
+    font-size: 25px;
+}
+
+.action-box h3,.action-box p {
+    margin: 0;
+}
+
+.action-box button {
+    padding: 10px 30px;
+    background-color: #3882F6;
+    font-weight: bold;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1F2937;
+    padding: 40px;
+    color: white;
+    text-align: center;
+}
